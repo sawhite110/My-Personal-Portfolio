@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style3.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <header>
+        <h1>Stevenson White II</h1>
+
+        <!-- Navigation links to sections on the page. -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">About Me</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>                
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- This section will have content to allow people to contact me. -->
+        <h2>Contact Me</h2>
+        <p>You can reach me by placing your information to the right, and clicking the links at the bottom of the page.</p>
+        <section class="container">
+            <!-- This will allow me to create a form for user input. -->
+            <form class="my-form" action="mailto:stevenson.whiteii@gmail.com" method="post">
+                <div class="form-group">
+                    <label>First Name: </label>
+                    <input type="text" name="firstName" placeholder="First name here..">
+                </div>
+                <div class="form-group">
+                    <label>Last Name: </label>
+                    <input type="text" name="lastName" placeholder="Last name here..">
+                </div>
+                <div class="form-group">
+                    <label>Email: </label>
+                    <input type="text" name="email" placeholder="Email here..">
+                </div>
+                <div class="form-group">
+                    <label>Message: </label>
+                    <textarea name="message" placeholder="Write your message here.."></textarea>
+                </div>
+                <!-- This button class will submit the information entered into the boxes, to an email sent to me. -->
+                <input class="button" type="submit" value="Submit" name="Submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- This section will have links to my social media. -->
+    <div class="social-media">
+        <a class="footer-link" href="https://www.linkedin.com/in/stevenson-white-ii-26974525" target="_blank">LinkedIn</a>
+        <a class="footer-link" href="https://www.ieee.org/" target="_blank">IEEE</a>
+        <a class="footer-link" href="https://github.com/sawhite110" target="_blank">Github</a>
+        <!-- Add a Twitter account link upon opening a new one. -->
+        <a class="footer-link" href="" target="_blank">Twitter</a>
+    </div>
+
+    <footer>        
+        <p>&copy; 2021 Designed and Created by Stevenson White II</p>
+    </footer>
+</body>
+
+</html>

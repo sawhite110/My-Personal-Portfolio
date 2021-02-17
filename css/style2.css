@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: #13293d;
+  --light: #fff;
+  --blue: #2589bd;
+  --lightgray: lightgrey;
+  --border-radius: 40px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;  
+}
+
+header{
+  background-color: var(--lightgray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  margin: 0 10px;
+}
+
+a:link {
+text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding: 5%;
+}
+main h2 {
+  padding: 1%;
+  border-style: solid;
+  border-color: var(--lightgray);
+  border-width: 3px;
+  width: 6.5em;
+  height: 3em;
+  align-items: center;
+}
+
+/* adding the border-radius, box-shadow, & transform to the card class. */
+/* adds the rounded edges to the  card and bottom edges of the image*/
+/* adds the shadow effect to the card */
+/* rotates the card by 10 degrees to the right */
+.cards {
+  display:flexbox;
+  background-color: var(--dark);
+  border: 1px solid var(--lightgray);
+  padding: 10px;
+  margin: 25px;
+  flex: 0 0 275px;
+  border-radius: 12%;
+  box-shadow: 10px 10px 5px #888888;
+  transform: rotate(10deg);
+}
+
+/* This rounds out the edges of the top left & right of the card header. */
+.cards header {
+  background-color: var(--blue);
+  color: var(--light);
+  padding: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+/* This rounds out the edges of the card image on the bottom left & right corners */
+.cards a img {
+  width: 100%;
+  height: 175px;
+  border-radius: 0 0 35px 35px;
+}
+
+/* This will keep the size of the cards with the size of the tablet screen.   */
+@media screen and (max-width: 992px, 768px, 576px) {
+  main,
+  nav {
+    flex-direction: row;
+  }
+}
+
+aside {
+  background-color: var(--blue);
+  width: 30%;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+footer {
+  clear: both;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: var(--dark);
+  color: #fff;
+}
+
+
