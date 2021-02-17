@@ -36,23 +36,23 @@
             <!-- This will allow me to create a form for user input. -->
             <form class="my-form" action="mailto:stevenson.whiteii@gmail.com" method="post">
                 <div class="form-group">
-                    <label>First Name: </label>
-                    <input type="text" name="firstName" placeholder="First name here..">
+                    <label for="firstName">First Name: </label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First name here..">
                 </div>
                 <div class="form-group">
-                    <label>Last Name: </label>
-                    <input type="text" name="lastName" placeholder="Last name here..">
+                    <label for="lastName">Last Name: </label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last name here..">
                 </div>
                 <div class="form-group">
-                    <label>Email: </label>
-                    <input type="text" name="email" placeholder="Email here..">
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email" placeholder="Email here..">
                 </div>
                 <div class="form-group">
-                    <label>Message: </label>
-                    <textarea name="message" placeholder="Write your message here.."></textarea>
+                    <label for="message">Message: </label>
+                    <textarea name="message" name="message" placeholder="Write your message here.." style="height: 150px;"></textarea>
                 </div>
                 <!-- This button class will submit the information entered into the boxes, to an email sent to me. -->
-                <input class="button" type="submit" value="Submit" name="Submit">
+                <input class="button" type="submit" value="Submit" name="submit">
             </form>
         </section>
     </main>

@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* This is for the Contact Me page. */
 /* Adding percentages will make the website responsive to different screen sizes. */
 :root {
   --dark: #13293d;
@@ -66,6 +67,7 @@ main p {
 
 .my-form .form-group {
   padding-bottom: 15px;
+  width: 175%;
 }
 
 .my-form label {
@@ -76,6 +78,10 @@ main p {
 .my-form textarea {
   padding: 8px;
   width: 100%;
+}
+
+input[type=submit] {
+  cursor: pointer;
 }
 
 .social-media {
