@@ -66,11 +66,13 @@ main h2 {
   border: 1px solid var(--lightgray);
   padding: 10px;
   margin: 25px;
-  flex: 0 0 275px;
+  flex: 80% 0 275px;
   border-radius: 12%;
   box-shadow: 10px 10px 5px #888888;
   transform: rotate(10deg);
 }
+
+
 
 /* This rounds out the edges of the top left & right of the card header. */
 .cards header {
