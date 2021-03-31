@@ -28,6 +28,14 @@
 
 !["screenshot1"](./images/screenshot3.png)
 
+## Project #1
+
+* Gitub Repo Link: [Github.com](https://github.com/sawhite110/Anime-of-the-Day)
+
+* Github Hosted Application Link: [Anime-of-the-Day]( https://sawhite110.github.io/Anime-of-the-Day/)
+
+---
+
 * The readme.md, index.html, portfolio.html, contact.html, style1.css, style2.css, style3.css files are updated and uplaoded to GitHub.
 
 * My last step in this process is to render my page live on the internet, using GitHub Pages as the host server.

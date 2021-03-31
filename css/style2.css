@@ -47,9 +47,9 @@ main {
   padding: 5%;
 }
 main h2 {
-  padding: 1%;
+  padding: 3%;
   border-style: solid;
-  border-color: var(--lightgray);
+  border-color: var(--dark);
   border-width: 3px;
   width: 6.5em;
   height: 3em;
@@ -60,7 +60,8 @@ main h2 {
 /* adds the rounded edges to the  card and bottom edges of the image*/
 /* adds the shadow effect to the card */
 /* rotates the card by 10 degrees to the right */
-.cards {
+.card {
+  color: #fff;
   display:flexbox;
   background-color: var(--dark);
   border: 1px solid var(--lightgray);
@@ -70,24 +71,33 @@ main h2 {
   border-radius: 12%;
   box-shadow: 10px 10px 5px #888888;
   transform: rotate(10deg);
+  width: 25%;
+}
+
+.card-body {
+  padding: 1.25rem 0 1.25rem 0;
 }
 
 
 
 /* This rounds out the edges of the top left & right of the card header. */
-.cards header {
+.card-title {
+  display:flex;
+  justify-content: center;
   background-color: var(--blue);
   color: var(--light);
   padding: 20px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  width: 100%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 /* This rounds out the edges of the card image on the bottom left & right corners */
-.cards a img {
+.card a img {
   width: 100%;
   height: 175px;
-  border-radius: 0 0 35px 35px;
+  border-radius: 35px 35px 0 0;
+  margin-bottom: -8%;
 }
 
 /* This will keep the size of the cards with the size of the tablet screen.   */
